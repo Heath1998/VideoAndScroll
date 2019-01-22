@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <link rel="stylesheet" type="text/css"  href="./style.css" />
+</head>
+<body>
+    <div id="app">
+        <div class="video-container">
+            <video src="http://211.147.220.169/videofs/file/64818C.mp4" 
+            id="video"
+            class="video" 
+            controls="controls"
+            oncontextmenu="return false;"
+            >
+            </video>
+        </div>
+        <div class="video-introduce">
+            <div class="time-line">
+                <span class="time">时间线</span>
+            </div>
+            <div class="search">
+                <input type="text" class="search-input"  placeholder="搜索">
+            </div>
+            <div class="info-time" id="scroll">
+                <div class="info-item"
+                v-for="(item, index) of timeMessage" 
+                :key = "index"
+                v-on:click="setVideoTime(item.timePoint)"
+                >
+                    <div class="square-time"> {{item.timePoint}}</div>
+                    <div class="square-content">{{item.info}}</div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+</body>
+<script src="./main.js"></script>
+</html>
