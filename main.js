@@ -5,43 +5,43 @@ var app = new Vue({
         clearTime: null,
         timeMessage:[
             {
-                timePoint: "00:00:05",
+                timePoint: "00:00:01",
                 info: "Please welcome such a Nadella Good morning, and welcome to build 2018. Welcome to Seattle, it's fantastic to see you all back here."
             },
             {
-                timePoint: "00:00:10",
+                timePoint: "00:00:03",
                 info: "This is time 10 s welcome to build 2019 welcome to build 2019 welcome to build 2019 welcome to build 2019 welcome to build 2019 "
             },
             {
-                timePoint: "00:00:15",
+                timePoint: "00:00:05",
                 info: "This is time 15 s welcome to build 2019 welcome to build 2019 welcome to build 2019 welcome to build 2019 welcome to build 2019 welcome to build 2019 "
             },
             {
-                timePoint: "00:00:20",
+                timePoint: "00:00:06",
                 info: "This is time 20 s welcome to build 2019 welcome to build 2019 welcome to build 2019 welcome to build 2019 welcome to build 2019 welcome to build 2019 "
             },
             {
-                timePoint: "00:00:25",
+                timePoint: "00:00:07",
                 info: "This is time 25 s welcome to build 2019 welcome to build 2019 welcome to build 2019 welcome to build 2019 welcome to build 2019 welcome to build 2019 "
             },
             {
-                timePoint: "00:00:30",
+                timePoint: "00:00:08",
                 info: "This is time 30 s welcome to build 2019 welcome to build 2019 welcome to build 2019 welcome to build 2019 welcome to build 2019 welcome to build 2019 "
             },
             {
-                timePoint: "00:00:35",
+                timePoint: "00:00:09",
                 info: "This is time 35 s welcome to build 2019 welcome to build 2019 welcome to build 2019 welcome to build 2019 welcome to build 2019 "
             },
             {
-                timePoint: "00:00:40",
+                timePoint: "00:00:10",
                 info: "This is time 40 s welcome to build 2019 welcome to build 2019 welcome to build 2019 welcome to build 2019 welcome to build 2019 welcome to build 2019 "
             },
             {
-                timePoint: "00:00:45",
+                timePoint: "00:00:12",
                 info: "This is time 45 s"
             },
             {
-                timePoint: "00:01:05",
+                timePoint: "00:00:15",
                 info: "This is time 65 s"
             }
         ]
